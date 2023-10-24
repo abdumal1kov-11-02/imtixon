@@ -1,0 +1,63 @@
+.build {
+  background-color: #012f34;
+  height: 484px;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__hr {
+    width: 70px;
+    height: 4px;
+    background-color: #f67e7e;
+  
+  }
+  &__title {
+    font-family: "Livvic";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    max-width: 445px;
+    margin-top: 58px;
+    margin-right: 270px;
+  }
+  &__img {
+    max-width: 72px;
+    max-height: 72px;
+  }
+  &__list {
+    list-style-type: none;
+    margin-left: -200px;
+    margin-top: 140px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+  
+  }
+  &__content--title {
+    font-family: ";Livvic";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #f67e7e;
+  }
+  &__content--text {
+    font-family: "Livvic";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 945px;
+    color: white;
+  }
+}
+.kantentcha {
+  margin-left: 20px;
+}

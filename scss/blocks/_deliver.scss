@@ -1,0 +1,95 @@
+.deliver {
+
+  background-color: rgba(0, 64, 71, 1);
+   &__rasm{
+    width: 64px;
+    height: 64px;
+   }
+  &__container {
+    margin-top: 140px;
+    max-width: 1110px;
+    height: 465px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__title {
+    max-width: 932px;
+    font-family: "Livvic";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__span {
+    color: #79c8c7;
+  }
+  &__list {
+    max-width: 1110px;
+    height: 313px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  &__text {
+    font-family: "Livvic";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  &__name {
+    margin-top: 24px;
+    margin-bottom: 2px;
+    font-family: "Livvic";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(121, 200, 199, 1);
+  }
+  &__name--text {
+    margin-bottom: 32px;
+    font-family: "Livvic";
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+}
+@media only screen and (max-width: 375px) {
+.deliver__container {
+  max-width: 375px;
+height: 1250px;
+margin-bottom: 165px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .deliver__container {
+    height: 1060px;
+  }
+  .deliver__title {
+    max-width: 573px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .deliver__item {
+    margin-top: 48px;
+    max-width: 573px;
+  }
+  .deliver__list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
